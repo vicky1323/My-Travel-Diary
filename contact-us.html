@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <style>
+                body {
+                    margin: 0px;
+                    background-color: rgb(223, 234, 245);
+                }
+                .navigation-bar {
+                    background-color: rgb(46, 46, 106);
+                    height: 60px;
+                }
+                .anchor1 {
+                    
+                    display: inline-block;
+                    margin-left: 580px;
+                    margin-top: 20px;
+                }
+                .anchor2 {
+                    
+                    display: inline-block;
+                    margin-left: 70px;
+                    margin-top: 20px;
+                }
+                #main-form {
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    background-color: white;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 60px;
+                    box-shadow: 5px 5px 5px #808080;
+                }
+                h2 {
+                    text-align: center;
+                }
+                #input-div {
+                    display: block;
+                    margin-left: 5px;
+                    margin-right: 60px;
+                }
+                .user-input {
+                    width: 100%;
+                    padding:15px;
+                    margin:20px;
+                    border-left: none;
+                    border-right: none;
+                    border-top: none;
+                    outline: none;
+                }
+                #button {
+                    display: block;
+                    background-color: rgb(19, 133, 204);
+                    font-size: 15px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    padding: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    color: white;
+                    box-shadow: none;
+                    margin-top: 20px;
+                    margin-right: auto;
+                    margin-left: auto;
+                        
+                }
+            
+                #footer-par {
+                    display: inline-block;
+                    margin-left: 550px;
+                    color: white;
+                    font-size: 18px;
+                    margin-top: 20px;   
+                }
+             
+        </style>
+    </head>
+    <body>
+        <div class="navigation-bar">
+            <span>
+                <a class="anchor1" style="color: white;" href="index.html">TRIPS</a>
+                <a class="anchor2" style="color: white;" href="about.html">ABOUT</a>
+                <a class="anchor2" style="color: white;" href="contact.html">CONTACT</a>
+            </span>
+        </div>
+         
+        <main>
+            <form id="main-form">
+                <h2>Contact US</h2>
+                <div id="input-div">
+                    <input class="user-input" type="text" placeholder="Your Name" required><br>
+                    <input class="user-input" type="email" placeholder="Email ID" required><br> 
+                    <input class="user-input" type="number" placeholder="Contact Number" required minlength="10" maxlength="10">
+                </div>
+                <input id="button" type="button" value="Submit">
+         
+            </form>                   
+        </main>
+        <footer>
+            <div class="navigation-bar">
+                <p id="footer-par">All Right Are Reserved @SCube Productions.</p>
+            </div>
+        </footer>
+    </body>
+</html>
